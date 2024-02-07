@@ -1,0 +1,25 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
+	/* 추가적인 스타일링과 패딩을 적용할 수 있습니다 */
+}
+
+.header {
+	height: 6rem;
+	background-color: tomato;
+}
+
+.footer {
+	height: 4rem;
+	background-color: cadetblue;
+}
